@@ -3,7 +3,7 @@ from backend.infrastructure.ponente_repository import PonenteRepository
 
 repo_ponente = PonenteRepository()
 # Clase Repositorio para la lectura y manipulacion en la BD
-class EventoRepository:
+class eventoRepository:
     # Estableciendo conexion con la BD a traves de un atributo de pool
     def __init__(self):
         self.mysql_pool = MySQLPool()
