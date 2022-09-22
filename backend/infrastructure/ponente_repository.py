@@ -1,6 +1,6 @@
 from backend.infrastructure.connection_pool import MySQLPool
 
-class PonenteRepository:
+class ponenteRepository:
     def __init__(self):
         self.mysql_pool = MySQLPool()
 
