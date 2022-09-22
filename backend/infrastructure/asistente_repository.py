@@ -1,7 +1,7 @@
 from backend.infrastructure.connection_pool import MySQLPool
 
 # Clase Repositorio para la lectura y manipulacion en la BD
-class AsistenteRepository:
+class asistenteRepository:
     # Estableciendo la conexion con la BD en MYSQL
     def __init__(self):
         self.mysql_pool = MySQLPool()
