@@ -1,6 +1,6 @@
 from backend.infrastructure.connection_pool import MySQLPool
 
-class TemaRepository:
+class temaRepository:
     def __init__(self):
         self.mysql_pool = MySQLPool()
 
